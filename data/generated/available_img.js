@@ -1,1 +1,1 @@
-const availableImg = ["Beck2016Visual","VPN02","VPN03","VPN04","VPN06","VPN07","VPN08","VPN09","VPN10","VPN11","VPN12"];
+const availableImg = ["Beck2016Visual","VPN01","VPN02","VPN03","VPN04","VPN05","VPN06","VPN07","VPN08","VPN09","VPN10"];
