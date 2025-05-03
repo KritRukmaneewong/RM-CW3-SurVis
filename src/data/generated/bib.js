@@ -1,0 +1,148 @@
+﻿const generatedBibEntries = {
+    "Beck2016Visual": {
+        "abstract": "Bibiographic data such as collections of scientific articles and citation networks have been studied extensively in information visualization and visual analytics research. Powerful systems have been built to support various types of bibliographic analysis, but they require some training and cannot be used to disseminate the insights gained. In contrast, we focused on developing a more accessible visual analytics system, called SurVis, that is ready to disseminate a carefully surveyed literature collection. The authors of a survey may use our Web-based system to structure and analyze their literature database. Later, readers of the survey can obtain an overview, quickly retrieve specific publications, and reproduce or extend the original bibliographic analysis. Our system employs a set of selectors that enable users to filter and browse the literature collection as well as to control interactive visualizations. The versatile selector concept includes selectors for textual search, filtering by keywords and meta-information, selection and clustering of similar publications, and following citation links. Agreement to the selector is represented by word-sized sparkline visualizations seamlessly integrated into the user interface. Based on an analysis of the analytical reasoning process, we derived requirements for the system. We developed the system in a formative way involving other researchers writing literature surveys. A questionnaire study with 14 visual analytics experts confirms that SurVis meets the initially formulated requirements.",
+        "author": "Beck, Fabian and Koch, Sebastian and Weiskopf, Daniel",
+        "doi": "10.1109/TVCG.2015.2467757",
+        "journal": "IEEE Transactions on Visualization and Computer Graphics",
+        "keywords": "type:system, visual_analytics, sparklines, information_retrieval, clustering, literature_browser",
+        "number": "01",
+        "publisher": "IEEE",
+        "series": "TVCG",
+        "title": "Visual Analysis and Dissemination of Scientific Literature Collections with {SurVis}",
+        "type": "article",
+        "url": "http://www.visus.uni-stuttgart.de/uploads/tx_vispublications/vast15-survis.pdf",
+        "volume": "22",
+        "year": "2016"
+    },
+   "VPN02": {
+    "abstract": "This paper presents a comprehensive survey of Virtual Private Networks (VPNs), focusing on the evaluation of their security mechanisms, vulnerabilities, and overall effectiveness. The authors categorize VPN types, outline encryption protocols, and assess their strengths and weaknesses. Real-world case studies and comparative analyses are used to illustrate VPN performance in various environments.",
+    "author": "Shaikh, D and Shah, J and Shaikh, A",
+    "doi": "10.5120/ijca2021921316",
+    "journal": "International Journal of Computer Applications",
+    "keywords": "VPN, security assessment, survey, evaluation, vulnerabilities",
+    "title": "Security Assessment and Evaluation of VPNs: A Comprehensive Survey",
+    "type": "article",
+    "url": "https://doi.org/10.5120/ijca2021921316",
+    "year": "2021"
+  },
+  "VPN03": {
+    "abstract": "This study evaluates the performance of VPNs across different network topologies, including star, ring, and mesh. Using simulation techniques, the authors measure metrics such as latency, packet loss, and throughput to determine the most efficient topology for VPN deployment. The results highlight the influence of topology on VPN efficiency and security.",
+    "author": "Patil, R and Singh, N",
+    "doi": "10.17577/IJERTV9IS060553",
+    "journal": "International Journal of Engineering Research & Technology",
+    "keywords": "VPN, performance, evaluation, network topology",
+    "title": "Performance Evaluation of VPN with Different Network Topologies",
+    "type": "article",
+    "url": "https://www.ijert.org/performance-evaluation-of-vpn-with-different-network-topologies",
+    "year": "2020"
+  },
+  "VPN04": {
+    "abstract": "The paper compares three major VPN technologies: MPLS, IPSec, and SSL. It explores their architectures, performance, and security implications in various deployment scenarios. The authors discuss pros and cons, aiming to help decision-makers choose the most suitable VPN technology for organizational use.",
+    "author": "Ullah, Rizwan and Malik, Arshad and Abbas, Ghulam and Aziz, Adnan",
+    "doi": "10.14569/IJACSA.2020.0110753",
+    "journal": "International Journal of Advanced Computer Science and Applications",
+    "keywords": "VPN, MPLS, IPSec, SSL, comparative analysis",
+    "title": "VPN a Boon or Trap? A Comparative Study of MPLS, IPSec and SSL Virtual Private Networks",
+    "type": "article",
+    "url": "https://doi.org/10.14569/IJACSA.2020.0110753",
+    "year": "2020"
+  },
+  "VPN05": {
+    "abstract": "This paper introduces VPN-Zero, a decentralized virtual private network architecture designed to preserve user privacy and enhance security using blockchain and zero-trust principles. The authors present the architecture, implementation, and evaluation of VPN-Zero, showing how it eliminates the need for centralized VPN providers and mitigates several privacy threats associated with traditional VPNs.",
+    "author": "Meneguette, Rodolfo I and de Paula, Antonio and Boukerche, Azzedine and Maia, Gustavo",
+    "doi": "10.1016/j.comcom.2023.01.015",
+    "journal": "Computer Communications",
+    "keywords": "VPN, decentralized, privacy, security protocol, blockchain",
+    "title": "VPN-Zero: A Privacy-Preserving Decentralized Virtual Private Network",
+    "type": "article",
+    "url": "https://doi.org/10.1016/j.comcom.2023.01.015",
+    "volume": "200",
+    "year": "2023"
+  },
+  "VPN06": {
+    "abstract": "This survey identifies and categorizes common vulnerabilities in VPN implementations. The authors analyze various tunneling and encryption methods and highlight their weaknesses. The paper also outlines best practices and mitigation strategies to address these threats and improve VPN security.",
+    "author": "Shaikh, A and Momin, A and Shaikh, D and Shaikh, J",
+    "journal": "International Journal of Research Publication and Reviews",
+    "keywords": "VPN, vulnerabilities, encryption, tunneling, threats",
+    "title": "Common Vulnerabilities Exposed in VPN – A Survey",
+    "type": "article",
+    "url": "https://www.ijrpr.com/uploads/V2ISSUE2/IJRPR234.pdf",
+    "volume": "2",
+    "number": "2",
+    "year": "2021"
+  },
+  "VPN07": {
+    "abstract": "This NIST Special Publication provides comprehensive guidelines for the secure deployment and use of IPsec VPNs in federal agencies. It covers architecture, key management, implementation options, and recommendations for configuring and managing IPsec VPNs to ensure compliance with federal standards and best practices.",
+    "author": "Frankel, Sheila and Hoffman, Richard and Nguyen, Angela and Kuhn, Rick",
+    "doi": "10.6028/NIST.SP.800-77r1",
+    "journal": "National Institute of Standards and Technology",
+    "keywords": "VPN, IPsec, NIST, guidelines, security standard",
+    "title": "Guide to IPsec VPNs (NIST SP 800-77 Revision 1)",
+    "type": "article",
+    "url": "https://doi.org/10.6028/NIST.SP.800-77r1",
+    "series": "NIST SP 800-77",
+    "year": "2023"
+  },
+  "VPN08": {
+    "abstract": "In this study, VPN remote access security vulnerabilities, specifically those based on OSPF, are investigated. Potential threats arising from misconfigurations and weaknesses in the OSPF protocol are identified. The paper further proposes countermeasures and best practices to enhance the overall security posture of remote access VPN deployments.",
+    "author": "Bayrak, Arif and Ozkan, Ibrahim",
+    "doi": "10.5815/ijcnis.2022.05.06",
+    "journal": "International Journal of Computer Network and Information Security",
+    "keywords": "VPN, remote access, OSPF, vulnerabilities, countermeasures",
+    "title": "VPN Remote Access OSPF-based VPN Security Vulnerabilities and Counter Measurements",
+    "type": "article",
+    "url": "https://doi.org/10.5815/ijcnis.2022.05.06",
+    "volume": "14",
+    "number": "5",
+    "year": "2022"
+  },
+  "VPN09": {
+    "abstract": "This paper analyzes network security using Internet Protocol Security (IPSec) with VPN. The authors evaluate how IPSec ensures confidentiality, integrity, and authentication. The analysis is supported by experimental setup and simulation to demonstrate the secure transmission of data.",
+    "author": "Chandel, Bhumika and Sharma, Ranjan",
+    "journal": "Journal of Emerging Technologies and Innovative Research",
+    "keywords": "VPN, IPSec, network security, analysis",
+    "title": "Network Security Analysis Based on Internet Protocol Security Using Virtual Private Network (VPN)",
+    "type": "article",
+    "url": "http://www.jetir.org/view?paper=JETIR2104131",
+    "volume": "8",
+    "number": "4",
+    "year": "2021"
+  },
+  "VPN10": {
+    "abstract": "This empirical study investigates the commercial VPN ecosystem by analyzing 200 VPN providers. It identifies opaque ownership structures, problematic logging policies, and misleading marketing claims. The paper highlights inconsistencies in advertised versus actual privacy guarantees and stresses the need for better transparency and regulation in the VPN market.",
+    "author": "Ghosh, Subodh and Ye, Tianyin and Qian, Zhongjie and Yu, Min and Zheng, Hang and Qian, Z. Morley",
+    "doi": "10.1145/3372297.3417269",
+    "journal": "Proceedings of the 2020 ACM SIGSAC Conference on Computer and Communications Security",
+    "keywords": "VPN, commercial services, privacy, logging policy, transparency",
+    "title": "An Empirical Analysis of the Commercial VPN Ecosystem",
+    "type": "inproceedings",
+    "url": "https://doi.org/10.1145/3372297.3417269",
+    "series": "CCS '20",
+    "year": "2020"
+  },
+  "VPN11": {
+    "abstract": "This paper presents a large-scale study on client-side vulnerabilities in commercial VPN applications. Through static and dynamic analysis of 283 Android VPN apps, the researchers discovered widespread issues such as data leaks, insecure permissions, and misleading claims. The findings call for stricter app store policies and better user awareness.",
+    "author": "Ikram, Muhammad and Kaafar, Mohamed Ali and Boreli, Roksana and Lo, Jason and Mehani, Olivier",
+    "doi": "10.1145/3133956.3134015",
+    "journal": "Proceedings of the 2017 Internet Measurement Conference",
+    "keywords": "VPN, Android, client-side vulnerability, mobile security, app analysis",
+    "title": "Client-side Vulnerabilities in Commercial VPNs",
+    "type": "inproceedings",
+    "url": "https://doi.org/10.1145/3133956.3134015",
+    "series": "IMC '17",
+    "year": "2017"
+  },
+  "VPN12": {
+    "abstract": "This paper characterizes the VPN ecosystem by measuring traffic from 62 popular VPN providers. The study examines data leakage, DNS behavior, and the extent of actual privacy protection offered. It reveals inconsistent encryption usage and varying degrees of protection, raising concerns about user trust and security.",
+    "author": "Sattler, Robin and Hohlfeld, Oliver and Smaragdakis, Georgios and Feldmann, Anja",
+    "doi": "10.1145/3565478.3569100",
+    "journal": "Proceedings of the 2022 ACM on Internet Measurement Conference",
+    "keywords": "VPN, traffic analysis, DNS leak, encryption, privacy measurement",
+    "title": "Characterizing the VPN Ecosystem in the Wild",
+    "type": "inproceedings",
+    "url": "https://doi.org/10.1145/3565478.3569100",
+    "series": "IMC '22",
+    "year": "2022"
+  }
+
+};
