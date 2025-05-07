@@ -10,7 +10,7 @@
     "url": "https://doi.org/10.1145/3579162",
     "volume": "55",
     "number": "13",
-    "year": "2021"
+    "year": "2023"
   },
   "VPN03": {
     "abstract": "Virtual Private Networks (VPNs) have become indispensable tools for ensuring secure, private, and unrestricted internet access in an era of increasing surveillance and censorship. This survey paper provides a comprehensive overview of VPN technologies, focusing on their theoretical foundations, practical implementations, and the challenges they face in modern network environments. We explore key VPN protocols, including IPsec, SSL/TLS, and the emerging WireGuard, highlighting their strengths and limitations. Additionally, we examine popular VPN tools and applications, such as ShadowSocks, V2Ray, and Trojan, which are widely used to circumvent internet restrictions. The paper also addresses the ongoing battle against detection mechanisms employed by firewalls and ISPs, discussing techniques like traffic obfuscation and UDP-over-TCP strategies. Finally, we outline future directions for VPN development, including post-quantum cryptography, enhanced anti-detection methods, and improved user privacy measures. This survey aims to provide a holistic understanding of VPN technologies, their current state, and their potential evolution in the face of emerging challenges.",
