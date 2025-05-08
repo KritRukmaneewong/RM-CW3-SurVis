@@ -52,7 +52,7 @@
     "doi": "10.6028/nist.sp.800-77r1",
     "keywords": "VPN, IPsec, NIST, guidelines, security standard",
     "title": "Guide to IPsec VPNs (NIST SP 800-77)",
-    "type": "techreport",
+    "type": "article",
     "url": " https://doi.org/10.6028/NIST.SP.800-77r1",
     "year": "2020"
   },
