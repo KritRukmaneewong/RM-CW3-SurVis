@@ -109,7 +109,7 @@
     "title": "Evaluating Susceptibility of VPN Implementations to DoS Attacks Using Adversarial Testing",
     "type": "article",
     "url": "https://www.ndss-symposium.org/ndss-paper/auto-draft-191/",
-    "year": "2021"
+    "year": "2022"
   }
 
 };
