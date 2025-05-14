@@ -26,14 +26,14 @@
     "year": "2025"
   },
   "VPN10": {
-    "abstract": "As more users adopt VPNs for a variety of reasons, it is impor- tant to develop empirical knowledge of their needs and mental models of what a VPN offers. Moreover, studying VPN users alone is not enough because, by using a VPN, a user essen- tially transfers trust, say from their network provider, onto the VPN provider. To that end, we are the first to study the VPN ecosystem from both the users’ and the providers’ per- spectives. In this paper, we conduct a quantitative survey of 1,252 VPN users in the U.S. and qualitative interviews of nine providers to answer several research questions regarding the motivations, needs, threat model, and mental model of users, and the key challenges and insights from VPN providers. We create novel insights by augmenting our multi-perspective results, and highlight cases where the user and provider per- spectives are misaligned. Alarmingly, we find that users rely on and trust VPN review sites, but VPN providers shed light on how these sites are mostly motivated by money. Worry- ingly, we find that users have flawed mental models about the protection VPNs provide, and about data collected by VPNs. We present actionable recommendations for technologists and security and privacy advocates by identifying potential areas on which to focus efforts and improve the VPN ecosystem.",
-    "author": "Ramesh, R., Vyas, A., & Ensafi, R.",
-    "doi": "https://doi.org/10.48550/arXiv.2208.03505",
+    "abstract": "Virtual Private Networks (VPNs) provide confidentiality and hide the original IP address. Although many VPN providers promise not to record user activity, several media reports of data breaches show that this is often not true. Tor, on the other hand, allows anony- mous communication using onion routing and takes privacy and anonymity seriously, but at the cost of performance loss. What is missing is a sweet spot between VPNs and anonymization net- works that supports bulk downloads and video streaming but pro- vides countermeasures against untrusted VPN providers and Au- tonomous System (AS)-level attackers. In this paper, we present OnionVPN, an onion routing-based VPN tunnel, that provides better bulk transfer performance than Tor and offers additional security features over a VPN: (1) interme- diate VPN nodes see only encrypted traffic, (2) protection against AS-level attackers with a new path selection algorithm, and (3) onion services with a novel cryptographic NAT traversal algorithm using the Noise protocol framework. We analyze 118 VPN provi- ders, systematically compare them to our requirements and show that OnionVPN is currently possible with three VPN providers. An alternative to Tor for bulk traffic could relieve the Tor network and provide a better experience for other users who need higher privacy and anonymity features.",
+    "author": "Pahl, S., Kaiser, D., Engel, T., & Adamsky, F. ",
+    "doi": "https://doi.org/10.1145/3689943.3695043",
     "journal": "Proceedings of the 31st USENIX Security Symposium (USENIX Security 2022)",
-    "keywords": "VPN perception, VPN marketing, user awareness, provider transparency, user trust, qualitative survey",
-    "title": "“All of them claim to be the best”: Multi-perspective study of VPN users and VPN providers",
+    "keywords": "VPN perception, VPN marketing, Privacy, Risk, provider transparency, user trust",
+    "title": "OnionVPN: Onion Routing-Based VPN-Tunnels with Onion Services",
     "type": "article",
-    "url": "https://arxiv.org/abs/2208.03505",
+    "url": "https://dl.acm.org/doi/10.1145/3689943.3695043",
     "year": "2023"
   },
   "VPN07": {
@@ -68,15 +68,15 @@
     "year": "2023"
   },
   "VPN05": {
-    "abstract": "Virtual Private Network (VPN) solutions are used to connect private networks securely over the Internet. Besides their benefits in cor- porate environments, VPNs are also marketed to privacy-minded users to preserve their privacy, and to bypass geolocation-based content blocking and censorship. This has created a market for turnkey VPN services offering a multitude of vantage points all over the world for a monthly price. While VPN providers are heavily using privacy and security benefits in their marketing, such claims are generally hard to measure and substantiate. While there exist some studies on the VPN ecosystem, all prior works omit a critical part in their analyses: How well do the providers configure and secure their own network infrastructure? and How well are they protecting their customers from other customers? To answer these questions, we have developed an automated measurement system with which we conduct a large-scale analysis of VPN providers and their thousands of VPN endpoints. Considering the fact that VPNs work internally using non-Internet-routable IP addresses, they might enable access to otherwise inaccessible networks. If not properly secured, this can inadvertently expose internal networks of these providers, or worse, even other clients connected to their services. Our results indicate a widespread lack of traffic filtering towards internally routable networks on the majority of tested VPN service providers, even in cases where no other VPN customers were directly exposed. We have disclosed our findings to the affected providers and other stakeholders, and offered guidance to improve the situation.",
-    "author": "Rytilahti, T., & Holz, T.",
-    "doi": "https://doi.org/10.48550/arXiv.2410.08737",
-    "journal": "Proceedings of the 2023 ACM SIGSAC Conference on Computer and Communications Security (CCS 2023)",
+    "abstract": "The use of Virtual Private Networks (VPN) as a mean to secure com- munication has become increasingly important with the growth in remote working. While vendor supplied VPN solutions are widely available, there is a growing trend to evaluate and implement solu- tions based on open-source software. In this study, we investigate three popular open-source VPN software (OpenVPN, OpenCon- nect and Wireguard) and compare their relative merits in terms of performance. Several studies have shown Wireguard’s superiority in performance over OpenVPN and other VPN software but nei- ther it nor OpenVPN has been benchmarked against OpenConnect. This study presents the performance differences between the three products across a range of client devices in selected typical deploy- ment scenarios. We also evaluate the performance differences of the software on desktop servers functioning as VPN gateways behind a router and Network Address Translator. Our study shows that VPN performance, besides the server side, is highly dependent on implementation of the client application. Even though Wireguard is ahead in performance in some operating environments, there are still cases where OpenVPN and OpenConnect come out on par.",
+    "author": "Chua, C. H., & Ng, S. C. ",
+    "doi": "https://doi.org/10.1145/3561877.3561882",
+    "journal": "2022 the 5th International Conference on Information Science and Systems",
     "keywords": "VPN, network security, analysis",
-    "title": "Bad Neighbors: On Understanding VPN Provider Networks",
+    "title": "Open-Source VPN Software",
     "type": "article",
-    "url": "https://doi.org/10.31763/iota.v3i3.613",
-    "year": "2024"
+    "url": "https://doi.org/10.1145/3561877.3561882",
+    "year": "2022"
   },
   "VPN04": {
     "abstract": "Global Internet users increasingly rely on virtual private network (VPN) services to preserve their privacy, circumvent censorship, and access geo-filtered content. Due to their own lack of technical sophistication and the opaque nature of VPN clients, however, the vast majority of users have limited means to verify a given VPN service’s claims along any of these dimensions. We design an active measurement system to test various infrastructural and privacy as- pects of VPN services and evaluate 62 commercial providers. Our results suggest that while commercial VPN services seem, on the whole, less likely to intercept or tamper with user traffic than other, previously studied forms of traffic proxying, many VPNs do leak user traffic—perhaps inadvertently—through a variety of means. We also find that a non-trivial fraction of VPN providers transparently proxy traffic, and many misrepresent the physical location of their vantage points: 5–30% of the vantage points, associated with 10% of the providers we study, appear to be hosted on servers located in countries other than those advertised to users.",
